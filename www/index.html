@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheto.ping</title>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+
+    <!-- script type="text/javascript" src="cordova.js"></script -->
+  </head>
+  <body>
+  	<div class="page-container">
+  		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	    	<div class="navbar-header">
+	           <!-- <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+	             <span class="icon-bar"></span>
+	             <span class="icon-bar"></span>
+	             <span class="icon-bar"></span>
+	           </button> -->
+	           <a class="navbar-brand" href="#">Cheto.ping</a>
+	    	</div>
+	    </div>
+	  	<div class="input-group text-center">
+	  		<input type="text" class="new-device form-control input-lg" placeholder="127.0.0.1">
+	    	<span class="input-group-btn">
+	    		<button class="add-device btn btn-lg btn-primary" type="button">Add</button>
+	    	</span>
+	    	<span class="input-group-btn">
+	    		<button class="ping-all btn btn-lg btn-success" type="button">Ping all</button>
+	    	</span>
+		</div>
+	  	<div class="panel panel-default">
+	  		<div class="panel-heading">
+	  			<span class="pull-right">ping@5m</span>
+	  			<h4>Servers</h4>
+	  		</div>
+	  		<div class="panel-body">
+			    <div class="list-group devices-list">
+			    	<!-- <a href="#" class="list-group-item device-item" data-ip="127.0.0.1">127.0.0.1</a>
+			    	<a href="#" class="list-group-item device-item" data-ip="localhost">localhost</a> -->
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<!-- script type="text/javascript" src="jquery.mobile-1.1.0.min.js"></script -->
+	<script type="text/javascript" src="jquery.ping.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="cheto.js"></script>
+  </body>
+</html>
