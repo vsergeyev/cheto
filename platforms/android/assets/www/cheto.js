@@ -27,7 +27,7 @@
 
 			db.get('cheto.ping', function (result) {
 				if (result) {
-					$.each(result, function (k, v) {
+					$.each(result['cheto.ping'], function (k, v) {
 						that.add(v);
 					});
 				} else {
